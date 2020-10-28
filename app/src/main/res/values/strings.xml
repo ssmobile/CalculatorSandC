@@ -8,4 +8,5 @@
     <string name="times_sign">X</string>
     <string name="result_hint">Your result will show here</string>
     <string name="equals_sign">=</string>
+    <string name="divide_sign">/</string>
 </resources>
