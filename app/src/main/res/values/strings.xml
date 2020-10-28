@@ -6,4 +6,6 @@
     <string name="plus_sign">+</string>
     <string name="minus_sign">-</string>
     <string name="times_sign">X</string>
+    <string name="result_hint">Your result will show here</string>
+    <string name="equals_sign">=</string>
 </resources>
