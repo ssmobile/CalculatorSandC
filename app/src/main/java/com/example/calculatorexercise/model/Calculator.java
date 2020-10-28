@@ -3,31 +3,26 @@ package com.example.calculatorexercise.model;
 public class Calculator {
     private double x;
     private double y;
-    private final char operator;
-    private int index = 0;
+    private char operand;
 
-    public Calculator(double x, double y, char operator) {
+    public Calculator() {}
+
+    public Calculator(double x, double y, char operand) {
         this.x = x;
         this.y = y;
-        this.operator = operator;
+        this.operand = operand;
     }
 
-    public char getOperator() {
-        return operator;
+    public double getX() {
+        return x;
     }
 
-    public void addNumber(double num) {
-        if (index == 0) {
-            index++;
-            x = num;
-        } else {
-            y = num;
-            index--;
-        }
+    public double getY() {
+        return y;
     }
 
     public double performOperation() {
-        switch (operator) {
+        switch (operand) {
             case '+':
                 return performAddition();
             case '-':
@@ -42,7 +37,7 @@ public class Calculator {
 
     }
 
-    public double performAddition() {
+    private double performAddition() {
         return add(x,y);
     }
 
