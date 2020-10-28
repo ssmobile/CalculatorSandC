@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CalculatorExercise</string>
+    <string name="number_one">Number One</string>
+    <string name="number_two">Number Two</string>
+    <string name="operand_hint">…</string>
+    <string name="plus_sign">+</string>
+    <string name="minus_sign">-</string>
+    <string name="times_sign">X</string>
+</resources>
